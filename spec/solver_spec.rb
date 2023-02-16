@@ -27,4 +27,24 @@ RSpec.describe Solver do
       end
     end
   end
+
+  describe '#reverse' do
+    it 'returns Exception when no word is passed' do
+      expect {subject.reverse}.to raise_error(ArgumentError)
+    end
+    it 'returns a string' do
+      expect(subject.reverse 'sth').to be
+    end
+    it 'returns "olleh" when "hello" is passed' do
+      actual = subject.reverse 'hello'
+      res ="olleh"
+      expect(actual).to eq(res)
+    end
+    it 'returns " !gnizama si ybuR" when "Ruby is amazing! " is passed' do
+      actual = subject.reverse 'Ruby is amazing! '
+      res =" !gnizama si ybuR"
+      expect(actual).to eq(res)
+    end
+
+  end
 end

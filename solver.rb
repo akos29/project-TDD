@@ -2,7 +2,7 @@
 
 class Solver
   def factorial(number: 0)
-    raise 'Number cannot be less than zero.' if n.negative?
+    raise 'Number cannot be less than zero.' if number.negative?
 
     counter = 1
     fact = 1
@@ -12,4 +12,5 @@ class Solver
     end
     fact
   end
+
 end
