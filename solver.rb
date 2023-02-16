@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# TDD project - the following code is solved after Test is written first
 class Solver
   def factorial(number: 0)
     raise 'Number cannot be less than zero.' if number.negative?
@@ -12,5 +13,4 @@ class Solver
     end
     fact
   end
-
 end
