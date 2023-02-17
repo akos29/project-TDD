@@ -30,8 +30,6 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -60,17 +58,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Project TDD] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+In this project you will implement a class with some methods, but you will do it by doing test-driven development (TDD).
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -99,9 +93,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Run a program using the command line.**
+- **Use Ruby syntax for basic programming operations.**
+- **Use Ruby to solve basic coding challenges.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,71 +113,50 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need the following tools:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Ruby installed in your computer
+- IDE(e.g.: Vscode,...)
+- Terminal
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/akos29/project-TDD.git
 ```
---->
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
+- Install this project with:
 
 ```sh
-  cd my-project
-  gem install
+  cd shcool-library-app
+
+  bundle install or bundle i
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  ruby main.rb
+
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+  rspec spec/
 ```
---->
 
 ### Deployment
 
@@ -205,17 +178,23 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Kibrewossen Yitbarek**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [akos](https://github.com/akos29)
+- Twitter: [kbson49](https://twitter.com/Kbson49)
+- LinkedIn: [Kibrewossen](https://www.linkedin.com/in/kibrewossen-yitbarek-bb587a18/)
 
-👤 **Author2**
+👤 Jonathan Munamire
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [jonathanmunamire](https://github.com/jonathanmunamire)
+- Twitter: [@amanimunamire](https://twitter.com/amanimunamire)
+- LinkedIn: [Jonathan Munamire](https://www.linkedin.com/in/jonathanmunamire/)
+
+👤 Jerome Jay
+
+- GitHub: [@githubhandle](https://github.com/187jjay187)
+- Twitter: [@twitterhandle](https://twitter.com/187jjay187)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/jerome-osman-137605a4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +204,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **N/A**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,7 +258,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
