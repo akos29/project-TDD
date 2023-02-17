@@ -136,7 +136,7 @@ Clone this repository to your desired folder:
 - Install this project with:
 
 ```sh
-  cd shcool-library-app
+  cd project-TDD
 
   bundle install or bundle i
 ```
@@ -146,7 +146,7 @@ Clone this repository to your desired folder:
 To run the project, execute the following command:
 
 ```sh
-  ruby main.rb
+  ruby solver.rb
 
 ```
 
