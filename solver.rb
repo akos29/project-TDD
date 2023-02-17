@@ -17,17 +17,17 @@ class Solver
     word.reverse
   end
 
-  def fizzbuzz(n)
-    raise ArgumentError, 'No argument was passed' if n.nil?
+  def fizzbuzz(number)
+    raise ArgumentError, 'No argument was passed' if number.nil?
 
-    if (n % 3).zero? && (n % 5).zero?
+    if (number % 3).zero? && (number % 5).zero?
       'fizzbuzz'
-    elsif (n % 3).zero?
+    elsif (number % 3).zero?
       'fizz'
-    elsif (n % 5).zero?
+    elsif (number % 5).zero?
       'buzz'
     else
-      n.to_s
+      number.to_s
     end
   end
 end
